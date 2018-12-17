@@ -1,0 +1,30 @@
+.master {
+	.posts {
+		h1 {
+			padding-left: 10px;
+		}
+		p {
+			padding-left: 15px;
+		}
+		ul {
+			li {
+				border-bottom: 1px solid #ccc;
+
+				&:first-child {
+					border-top: 1px solid #ccc;
+				}
+				a {
+					display: block;
+					line-height: 50px;
+					padding-left: 10px;
+					color: #555;
+
+					&:hover {
+						background-color: #eee;
+						color: #333;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+body {
+	margin: 0; // chrome
+}
+ul {
+	li {
+	    list-style-type: none;
+	}
+}
+a {
+	text-decoration: none;
+}
+ul, menu, dir {
+    margin: 0;
+    padding: 0;
+}
